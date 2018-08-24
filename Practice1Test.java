@@ -1,4 +1,4 @@
-package edu.usfca.cs.cs245;
+//package edu.usfca.cs.cs245;
 
 public class Practice1Test {
 
@@ -10,6 +10,7 @@ public class Practice1Test {
 	 * Constructor for the class.
 	 */
 	public Practice1Test () {
+		factory = new A1Factory();
 		factory = new A1Factory();
 		types = new String [] {"recursive", "iterative"};  // Better to put these in a config file?
 	}

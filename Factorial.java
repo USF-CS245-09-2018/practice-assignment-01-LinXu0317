@@ -1,4 +1,4 @@
-package edu.usfca.cs.cs245;
+//package edu.usfca.cs.cs245;
 
 public interface Factorial {
 	
@@ -9,5 +9,5 @@ public interface Factorial {
 	 * @param n
 	 * @return n!
 	 */
-	public int factorial(int n);
+	 int factorial(int n);
 }
